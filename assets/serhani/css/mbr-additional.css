@@ -2,6 +2,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 
+.list-dash li, .list-bullet li {
+    position: relative;
+    list-style-type: none; /* disc circle(hollow) square none */
+    text-indent: 2em;
+}
+.list-dash li:before {
+    content: '—  '; /* em dash */
+}
+.list-bullet li:before {
+    content: '• '; /*copy and paste a bullet from HTML in browser into CSS (not using ASCII codes) */
+}
+
+
 
 
 
