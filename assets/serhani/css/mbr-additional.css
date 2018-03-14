@@ -14,7 +14,40 @@
     content: '• '; /*copy and paste a bullet from HTML in browser into CSS (not using ASCII codes) */
 }
 
-
+.card-container {
+  cursor: pointer;
+  height: 140px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.card {
+  height: 165%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 165%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  transform: rotateY(180deg);
+}
 
 
 
