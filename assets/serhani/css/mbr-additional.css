@@ -24,11 +24,11 @@
   width: 150px;
 }
 .card {
-  height: 165%;
+  height: 150%;
   position: absolute;
   transform-style: preserve-3d;
   transition: all 1s ease-in-out;
-  width: 165%;
+  width: 150%;
 }
 .card:hover {
   transform: rotateY(180deg);
