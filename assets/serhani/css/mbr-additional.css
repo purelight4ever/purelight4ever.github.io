@@ -18,10 +18,10 @@
 
 .card-container {	
   cursor: pointer;
-  height: 300px;
+  height: 340px;
   perspective: 600;
   position: relative;
-  width: 300px;
+  width: 340px;
 }
 .card {
   height: 100%;
