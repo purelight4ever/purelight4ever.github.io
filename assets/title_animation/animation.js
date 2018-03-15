@@ -1,7 +1,7 @@
 // JavaScript Document
 
 $(function(){
-	$('.repeat').click(function(){
+	$('.repeat').mouseover(function(){
     	var classes =  $(this).parent().attr('class');
         $(this).parent().attr('class', 'animate');
         var indicator = $(this);
