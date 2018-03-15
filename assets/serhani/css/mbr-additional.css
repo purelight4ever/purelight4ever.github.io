@@ -14,7 +14,10 @@
     content: '• '; /*copy and paste a bullet from HTML in browser into CSS (not using ASCII codes) */
 }
 
+
+
 .card-container {
+  padding-top: 30px;	
   cursor: pointer;
   height: 140px;
   perspective: 600;
@@ -699,4 +702,7 @@ h6,
 }
 #contacts1-6 P {
   color: #c0a375;
+}
+.lists {
+	display:list-item !important;
 }
