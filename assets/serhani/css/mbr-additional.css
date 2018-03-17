@@ -18,16 +18,16 @@
 
 .card-container {	
   cursor: pointer;
-  height: 354px;
+  height: 352px;
   perspective: 600;
   position: relative;
-  width: 354px;
+  width: 352px;
 }
 .card {
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
+  transition: all 3s ease-in-out;
   width: 100%;
 }
 .card:hover {
